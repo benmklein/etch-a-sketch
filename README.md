@@ -1,0 +1,1 @@
+This is a quick and dirty JS project to make a grid that changes color on hover.

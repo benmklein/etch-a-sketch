@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: grey;
+}
+.button-container{
+    margin-bottom: 16px;
+}
+.container {
+    flex: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+}
+
+.box {
+    /* height: 50px; */
+    /* width: 50px; */
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    transition: all 200ms ease-out;
+}
+.box.activated{
+    /* transition: all 200ms ease-in-out; */
+    background-color: rgb(42, 236, 74);
+}
+.box.hover{
+    transition: all 200ms ease-in-out;
+    background-color: blueviolet;
+}
